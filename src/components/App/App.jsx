@@ -1,9 +1,9 @@
-function App() {
+import Description from "../Description/Description";
+
+export default function App() {
   return (
     <>
-      <p>Hello</p>
+      <Description />
     </>
   );
 }
-
-export default App;
